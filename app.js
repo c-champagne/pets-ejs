@@ -13,7 +13,10 @@ console.log(jsonData[0].name);
 
 
 app.get('/', function (req, res, next) {
-    res.send('Hello, world!')
+    
+    res.render('home', {
+        data: jsonData,
+    })
 });
 
 app.get('/simon', function (req, res, next) {
