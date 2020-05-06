@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="/styles/style.css">
+<%- include('partials/templates/header.ejs') %>
+<%- include('partials/templates/petText.ejs') %>
+<%- include('partials/templates/footer.ejs') %>
+
+<!-- 'Header' section-->
+
+<div id="header"><img src= <%= imgURL  %> />
+</div>
+
+<!-- 'Body' section-->
+<div id="body">
+    <h1><%= name  %></h1>
+    <h3><%= description %> </h3> 
+</div>
+
+
+<!-- 'Navigation' section-->
+
+<div id="nav"><p>Navigate to another pet:</p>
+    <a href="/simon">See Simon</a>
+    <a href="/vito">See Vito</a>
+    <a href="/temmie">See Temmie</a>
+    <a href="/randomdog">See a cute dog</a>
+    <a href="/randomcat">See a cute cat</a>
+</div>
+
+<!-- 'Footer' section-->
+<div id="footer">
+    <h5>About this project</h5>
+    <p>This project utilizes Express and EJS to make a dynamic website about my pets and a couple of other cute animal photos.  It was created by me, Cassie, as part of an exercise within my bootcamp course.</p>
+</div>

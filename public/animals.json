@@ -1,0 +1,26 @@
+[{
+    "name": "Simon",
+    "description": "Best doggo",
+    "imgURL": "./images/simon.jpg"
+},
+{
+    "name": "Vito",
+    "description": "Little polar bear",
+    "imgURL": "./images/vito.jpg"
+},
+{
+    "name": "Temmie",
+    "description": "Non-stop go-getter",
+    "imgURL": "./images/temmie.jpg"
+},
+{
+    "name": "Random Dog",
+    "description": "Not mine, just cute",
+    "imgURL": "./images/random1.jpg"
+},
+{
+    "name": "Random Cat",
+    "description": "What a cat might look like",
+    "imgURL": "./images/random2.jpg"
+}
+]
