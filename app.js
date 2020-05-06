@@ -59,20 +59,6 @@ app.get('/randomcat', function (req, res, next){
     })
 })
 
-app.get('/year', function(req, res, next){
-    let age = req.query.age;
-    let birthYear = 2020 - age;
-    //query parameter is /year?age=27
-    /* res.send(`You were born in ${birthYear}`); */
-    res.render('year', {
-        pageTitle:'Forget what year you were born?',
-        userAge: 'If you are ' + age + ' years old...',
-        greeting: 'You were born in ' + birthYear
-
-    })
-})
-
-
 
 app.listen(3000, function(){
     console.log('Ready to go!')
